@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-mozley-main-panel',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mozley-main-panel.component.scss']
 })
 export class MozleyMainPanelComponent implements OnInit {
+  curURL:String;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+    this.curURL = this.router.url
+    console.log(this.router.url);
   }
+
+
 
 }
