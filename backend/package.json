@@ -9,7 +9,12 @@
   "author": "kyungbae",
   "license": "ISC",
   "dependencies": {
+    "assign-deep": "^1.0.1",
+    "dynamodb": "^1.2.1",
     "express": "^4.17.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "set-value": "^3.0.1",
+    "update": "^0.7.4",
+    "upgrade": "^1.1.0"
   }
 }
