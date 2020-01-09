@@ -3,6 +3,11 @@ import { Routes, RouterModule } from '@angular/router';
 import { MozleyMainPanelComponent } from './mozley-main-panel/mozley-main-panel.component';
 
 const routes: Routes = [
+  { 
+    path: '',
+    redirectTo: 'main',
+    pathMatch: 'full' 
+  },
   {
     path: 'main',
     component: MozleyMainPanelComponent,
