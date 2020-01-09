@@ -7,6 +7,18 @@ const routes: Routes = [
     path: 'main',
     component: MozleyMainPanelComponent,
   },
+  {
+    path: 'events',
+    component: MozleyMainPanelComponent,
+  },
+  {
+    path: 'community',
+    component: MozleyMainPanelComponent,
+  },
+  {
+    path: 'contact',
+    component: MozleyMainPanelComponent,
+  },
 ];
 
 @NgModule({
